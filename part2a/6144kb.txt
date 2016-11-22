@@ -1,0 +1,95 @@
+------------------------------------------------------------------------------------------
+Extensible Memory Benchmarking Tool (X-Mem) v2.4.2 for Windows on Intel x86-64
+Build date: Thu 11/10/2016 13:20:01.28
+Indicated compiler(s): Microsoft Visual C++ 
+(C) Microsoft Corporation 2015
+Originally authored by Mark Gottscho <mgottscho@ucla.edu>
+------------------------------------------------------------------------------------------
+
+
+Working set per thread:               6291456 B == 6144 KB == 6 MB (1536 pages)
+
+-------- Running Benchmark: Test #1T (Throughput) ----------
+CPU NUMA Node: 0
+Memory NUMA Node: 0
+Chunk Size: 64-bit
+Access Pattern: forward sequential
+Read/Write Mode: read
+Number of worker threads: 1
+
+
+*** RESULTS***
+
+Iter #   0:    8707.014    MB/s
+
+
+Mean: 8707.01 MB/s
+Min: 8707.01 MB/s
+25th Percentile: 8707.01 MB/s
+Median: 8707.01 MB/s
+75th Percentile: 8707.01 MB/s
+95th Percentile: 8707.01 MB/s
+99th Percentile: 8707.01 MB/s
+Max: 8707.01 MB/s
+Mode: 8707.01 MB/s
+
+
+Socket 0 DRAM Power Statistics...
+...Mean Power: 0 W
+...Peak Power: 0 W
+
+-------- Running Benchmark: Test #2T (Throughput) ----------
+CPU NUMA Node: 0
+Memory NUMA Node: 0
+Chunk Size: 64-bit
+Access Pattern: forward sequential
+Read/Write Mode: write
+Number of worker threads: 1
+
+
+*** RESULTS***
+
+Iter #   0:    6107.005    MB/s
+
+
+Mean: 6107 MB/s
+Min: 6107 MB/s
+25th Percentile: 6107 MB/s
+Median: 6107 MB/s
+75th Percentile: 6107 MB/s
+95th Percentile: 6107 MB/s
+99th Percentile: 6107 MB/s
+Max: 6107 MB/s
+Mode: 6107 MB/s
+
+
+Socket 0 DRAM Power Statistics...
+...Mean Power: 0 W
+...Peak Power: 0 W
+
+-------- Running Benchmark: Test #1L (Latency) ----------
+CPU NUMA Node: 0
+Memory NUMA Node: 0
+Latency measurement chunk size: 64-bit
+Latency measurement access pattern: random read (pointer-chasing)
+
+
+*** RESULTS***
+
+Iter #   0:    71.340 ns/access @    0.000 MB/s mean self-imposed load
+
+
+Mean: 71.3396 ns/access and 0 MB/s mean imposed load (not necessarily matched)
+Min: 71.3396 ns/access
+25th Percentile: 71.3396 ns/access
+Median: 71.3396 ns/access
+75th Percentile: 71.3396 ns/access
+95th Percentile: 71.3396 ns/access
+99th Percentile: 71.3396 ns/access
+Max: 71.3396 ns/access
+Mode: 71.3396 ns/access
+
+
+Socket 0 DRAM Power Statistics...
+...Mean Power: 0 W
+...Peak Power: 0 W
